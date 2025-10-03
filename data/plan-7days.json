@@ -1,0 +1,11 @@
+{
+  "days": [
+    {"day": 1, "recipeIds": ["citrus-start", "green-boost", "red-power", "mineral-mild"]},
+    {"day": 2, "recipeIds": ["apple-ginger", "celery-detox", "golden-sun", "beet-berry"]},
+    {"day": 3, "recipeIds": ["c-shot", "green-apple-smooth", "carrot-pine", "deep-red"]},
+    {"day": 4, "recipeIds": ["turmeric-citrus", "celery-spinach", "golden-carrot", "berry-elixir"]},
+    {"day": 5, "recipeIds": ["bitter-citrus", "green-light", "carrot-beet", "pine-mint"]},
+    {"day": 6, "recipeIds": ["citrus-ginger", "iron-green", "beet-classic", "carrot-turmeric"]},
+    {"day": 7, "recipeIds": ["immune-boost", "celery-cuke-lime", "berry-fruit", "green-smooth-night"]}
+  ]
+}

@@ -1,0 +1,409 @@
+[
+  {
+    "id": "citrus-start",
+    "title": "Citrus Start",
+    "goal": "Vitamin C + Beta-Carotin",
+    "serves_ml": 350,
+    "image": "🍊",
+    "color": "#FF8C00",
+    "ingredients": [
+      {"name": "Orange", "qty": 2, "unit": "st"},
+      {"name": "Zitrone", "qty": 1, "unit": "st"},
+      {"name": "Karotte", "qty": 1, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl", "note": "nach dem Pressen einrühren"}
+    ],
+    "steps": "Alles entsaften, Hanföl einrühren.",
+    "tags": ["mild", "fruchtig", "morgen"]
+  },
+  {
+    "id": "green-boost",
+    "title": "Green Boost",
+    "goal": "Eisen + Hydration",
+    "serves_ml": 360,
+    "image": "🥬",
+    "color": "#32CD32",
+    "ingredients": [
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Gurke", "qty": 0.5, "unit": "st"},
+      {"name": "Selleriestange", "qty": 2, "unit": "st"},
+      {"name": "Spinat", "qty": 50, "unit": "g"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Gemüse entsaften, Hanföl zum Schluss unterrühren.",
+    "tags": ["grün", "frisch", "mittag"]
+  },
+  {
+    "id": "red-power",
+    "title": "Red Power",
+    "goal": "Nitrat + Ingwer-Push",
+    "serves_ml": 340,
+    "image": "🫒",
+    "color": "#DC143C",
+    "ingredients": [
+      {"name": "Rote Bete", "qty": 1, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Karotte", "qty": 1, "unit": "st"},
+      {"name": "Ingwer", "qty": 10, "unit": "g"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften, Ingwer nach Geschmack dosieren, Öl unterziehen.",
+    "tags": ["rot", "würzig", "energie"]
+  },
+  {
+    "id": "mineral-mild",
+    "title": "Mineral Mild",
+    "goal": "Mineralien + leichte Süße",
+    "serves_ml": 330,
+    "image": "🍍",
+    "color": "#FFD700",
+    "ingredients": [
+      {"name": "Ananas", "qty": 0.5, "unit": "st"},
+      {"name": "Gurke", "qty": 0.5, "unit": "st"}
+    ],
+    "steps": "Ananas und Gurke entsaften.",
+    "tags": ["mild", "gelb", "nachmittag"]
+  },
+  {
+    "id": "apple-ginger",
+    "title": "Apple Ginger",
+    "goal": "Immun-Kick + Wärme",
+    "serves_ml": 340,
+    "ingredients": [
+      {"name": "Apfel", "qty": 2, "unit": "st"},
+      {"name": "Ingwer", "qty": 8, "unit": "g"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"}
+    ],
+    "steps": "Äpfel und Zitronen entsaften, Ingwer mitpressen.",
+    "tags": ["fruchtig", "scharf", "morgen"]
+  },
+  {
+    "id": "celery-detox",
+    "title": "Celery Detox",
+    "goal": "Entwässerung + Chlorophyll",
+    "serves_ml": 350,
+    "ingredients": [
+      {"name": "Selleriestange", "qty": 3, "unit": "st"},
+      {"name": "Gurke", "qty": 0.5, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"}
+    ],
+    "steps": "Alles entsaften.",
+    "tags": ["grün", "leicht", "detox"]
+  },
+  {
+    "id": "golden-sun",
+    "title": "Golden Sun",
+    "goal": "Vitamin C + Curcumin",
+    "serves_ml": 360,
+    "image": "🌟",
+    "color": "#FFA500",
+    "ingredients": [
+      {"name": "Orange", "qty": 2, "unit": "st"},
+      {"name": "Karotte", "qty": 1, "unit": "st"},
+      {"name": "Kurkuma", "qty": 6, "unit": "g"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften, Kurkuma fein schaben, Öl unterheben.",
+    "tags": ["gold", "würzig", "energie"]
+  },
+  {
+    "id": "beet-berry",
+    "title": "Beet Berry",
+    "goal": "Nitrat + Antioxidantien",
+    "serves_ml": 350,
+    "image": "🫐",
+    "color": "#8B008B",
+    "ingredients": [
+      {"name": "Rote Bete", "qty": 1, "unit": "st"},
+      {"name": "Blaubeeren", "qty": 80, "unit": "g"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Bete und Apfel entsaften, Beeren mitpürieren, Öl einrühren.",
+    "tags": ["rot", "beere", "nachmittag"]
+  },
+  {
+    "id": "c-shot",
+    "title": "C Shot",
+    "goal": "Vitamin C Trio",
+    "serves_ml": 320,
+    "ingredients": [
+      {"name": "Orange", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Grapefruit", "qty": 0.5, "unit": "st"},
+      {"name": "Ingwer", "qty": 6, "unit": "g"}
+    ],
+    "steps": "Zitrusfrüchte entsaften, Ingwer dazu.",
+    "tags": ["zitrus", "morgen", "boost"]
+  },
+  {
+    "id": "green-apple-smooth",
+    "title": "Green Apple Smooth",
+    "goal": "Chlorophyll + Säure",
+    "serves_ml": 340,
+    "ingredients": [
+      {"name": "Grüner Apfel", "qty": 1, "unit": "st"},
+      {"name": "Gurke", "qty": 0.5, "unit": "st"},
+      {"name": "Petersilie", "qty": 20, "unit": "g"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften, Petersilie anteilig pressen, Öl unterziehen.",
+    "tags": ["grün", "krautig", "frisch"]
+  },
+  {
+    "id": "carrot-pine",
+    "title": "Carrot Pine",
+    "goal": "Beta-Carotin + Bromelain",
+    "serves_ml": 360,
+    "ingredients": [
+      {"name": "Karotte", "qty": 2, "unit": "st"},
+      {"name": "Ananas", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Karotten und Ananas entsaften, Öl einrühren.",
+    "tags": ["orange", "süß", "nachmittag"]
+  },
+  {
+    "id": "deep-red",
+    "title": "Deep Red",
+    "goal": "Ausdauer + Antioxidantien",
+    "serves_ml": 350,
+    "ingredients": [
+      {"name": "Rote Bete", "qty": 1, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Karotte", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften und Öl nachträglich einrühren.",
+    "tags": ["rot", "erdig", "abend"]
+  },
+  {
+    "id": "turmeric-citrus",
+    "title": "Turmeric Citrus",
+    "goal": "Anti-Entzündlich + Vitamin C",
+    "serves_ml": 340,
+    "ingredients": [
+      {"name": "Orange", "qty": 2, "unit": "st"},
+      {"name": "Zitrone", "qty": 1, "unit": "st"},
+      {"name": "Kurkuma", "qty": 6, "unit": "g"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Zitrusfrüchte entsaften, Kurkuma fein reiben, Öl hinzufügen.",
+    "tags": ["gold", "würzig", "immune"]
+  },
+  {
+    "id": "celery-spinach",
+    "title": "Celery Spinach",
+    "goal": "Eisen + Elektrolyte",
+    "serves_ml": 360,
+    "ingredients": [
+      {"name": "Selleriestange", "qty": 2, "unit": "st"},
+      {"name": "Spinat", "qty": 60, "unit": "g"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Sellerie und Spinat entsaften, Rest zufügen und Öl einrühren.",
+    "tags": ["grün", "kraft", "mittag"]
+  },
+  {
+    "id": "golden-carrot",
+    "title": "Golden Carrot",
+    "goal": "Beta-Carotin + Ingwer",
+    "serves_ml": 340,
+    "ingredients": [
+      {"name": "Karotte", "qty": 2, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Ingwer", "qty": 8, "unit": "g"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften, Öl nachträglich untermischen.",
+    "tags": ["orange", "scharf", "energie"]
+  },
+  {
+    "id": "berry-elixir",
+    "title": "Berry Elixir",
+    "goal": "Polyphenole + Hydration",
+    "serves_ml": 330,
+    "ingredients": [
+      {"name": "Blaubeeren", "qty": 90, "unit": "g"},
+      {"name": "Gurke", "qty": 0.5, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"}
+    ],
+    "steps": "Beeren kurz mixen, restliche Zutaten entsaften.",
+    "tags": ["violett", "fruchtig", "abend"]
+  },
+  {
+    "id": "bitter-citrus",
+    "title": "Bitter Citrus",
+    "goal": "Leberfreundliche Bitterstoffe",
+    "serves_ml": 330,
+    "ingredients": [
+      {"name": "Grapefruit", "qty": 1, "unit": "st"},
+      {"name": "Orange", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 1, "unit": "st"}
+    ],
+    "steps": "Zitrusfrüchte entsaften.",
+    "tags": ["zitrus", "bitter", "morgen"]
+  },
+  {
+    "id": "green-light",
+    "title": "Green Light",
+    "goal": "Hydration + Chlorophyll",
+    "serves_ml": 360,
+    "ingredients": [
+      {"name": "Gurke", "qty": 1, "unit": "st"},
+      {"name": "Selleriestange", "qty": 2, "unit": "st"},
+      {"name": "Spinat", "qty": 60, "unit": "g"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften, Öl einrühren.",
+    "tags": ["grün", "leicht", "detox"]
+  },
+  {
+    "id": "carrot-beet",
+    "title": "Carrot Beet",
+    "goal": "Beta-Carotin + Nitrat",
+    "serves_ml": 350,
+    "ingredients": [
+      {"name": "Karotte", "qty": 2, "unit": "st"},
+      {"name": "Rote Bete", "qty": 1, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften und Öl untermischen.",
+    "tags": ["rot", "wurzel", "energie"]
+  },
+  {
+    "id": "pine-mint",
+    "title": "Pine Mint",
+    "goal": "Frische + Verdauung",
+    "serves_ml": 340,
+    "ingredients": [
+      {"name": "Ananas", "qty": 0.5, "unit": "st"},
+      {"name": "Minze", "qty": 1, "unit": "bund"},
+      {"name": "Zitrone", "qty": 1, "unit": "st"}
+    ],
+    "steps": "Ananas und Zitrone entsaften, Minze kurz mitpressen.",
+    "tags": ["grün", "frisch", "snack"]
+  },
+  {
+    "id": "citrus-ginger",
+    "title": "Citrus Ginger",
+    "goal": "Immunsystem + Wärme",
+    "serves_ml": 320,
+    "ingredients": [
+      {"name": "Orange", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 1, "unit": "st"},
+      {"name": "Ingwer", "qty": 8, "unit": "g"}
+    ],
+    "steps": "Zitrusfrüchte entsaften, Ingwer mitpressen.",
+    "tags": ["zitrus", "scharf", "morgen"]
+  },
+  {
+    "id": "iron-green",
+    "title": "Iron Green",
+    "goal": "Eisen + Vitamin C",
+    "serves_ml": 360,
+    "ingredients": [
+      {"name": "Spinat", "qty": 60, "unit": "g"},
+      {"name": "Grünkohl", "qty": 50, "unit": "g"},
+      {"name": "Gurke", "qty": 0.5, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Grünzeug vorsaften, Obst ergänzen, Öl unterziehen.",
+    "tags": ["grün", "kraft", "mittag"]
+  },
+  {
+    "id": "beet-classic",
+    "title": "Beet Classic",
+    "goal": "Basisvitamine + Nitrat",
+    "serves_ml": 340,
+    "ingredients": [
+      {"name": "Rote Bete", "qty": 1, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Karotte", "qty": 1, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften, Öl unterheben.",
+    "tags": ["rot", "klassisch", "alltag"]
+  },
+  {
+    "id": "carrot-turmeric",
+    "title": "Carrot Turmeric",
+    "goal": "Entzündungshemmend",
+    "serves_ml": 330,
+    "ingredients": [
+      {"name": "Karotte", "qty": 3, "unit": "st"},
+      {"name": "Kurkuma", "qty": 6, "unit": "g"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Karotten entsaften, Kurkuma fein reiben, Öl einrühren.",
+    "tags": ["orange", "würzig", "abend"]
+  },
+  {
+    "id": "immune-boost",
+    "title": "Immune Boost",
+    "goal": "Vitamin C + Beta-Carotin",
+    "serves_ml": 350,
+    "ingredients": [
+      {"name": "Orange", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 1, "unit": "st"},
+      {"name": "Ingwer", "qty": 6, "unit": "g"},
+      {"name": "Karotte", "qty": 1, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Alles entsaften, Öl zum Schluss zugeben.",
+    "tags": ["zitrus", "frisch", "morgen"]
+  },
+  {
+    "id": "celery-cuke-lime",
+    "title": "Celery Cuke Lime",
+    "goal": "Hydration + Elektrolyte",
+    "serves_ml": 360,
+    "ingredients": [
+      {"name": "Selleriestange", "qty": 2, "unit": "st"},
+      {"name": "Gurke", "qty": 1, "unit": "st"},
+      {"name": "Limette", "qty": 1, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"}
+    ],
+    "steps": "Alles entsaften.",
+    "tags": ["grün", "sauer", "mittag"]
+  },
+  {
+    "id": "berry-fruit",
+    "title": "Berry Fruit",
+    "goal": "Antioxidantien + Frische",
+    "serves_ml": 330,
+    "ingredients": [
+      {"name": "Blaubeeren", "qty": 80, "unit": "g"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"}
+    ],
+    "steps": "Beeren leicht andrücken, alles entsaften.",
+    "tags": ["beere", "frisch", "snack"]
+  },
+  {
+    "id": "green-smooth-night",
+    "title": "Green Smooth Night",
+    "goal": "Abendroutine + Magnesium",
+    "serves_ml": 340,
+    "ingredients": [
+      {"name": "Spinat", "qty": 60, "unit": "g"},
+      {"name": "Gurke", "qty": 0.5, "unit": "st"},
+      {"name": "Petersilie", "qty": 20, "unit": "g"},
+      {"name": "Zitrone", "qty": 0.5, "unit": "st"},
+      {"name": "Apfel", "qty": 1, "unit": "st"},
+      {"name": "Hanföl", "qty": 1, "unit": "tl"}
+    ],
+    "steps": "Grünzeug entsaften, restliche Zutaten ergänzen, Öl zum Schluss einrühren.",
+    "tags": ["grün", "abend", "sanft"]
+  }
+]
