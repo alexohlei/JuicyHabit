@@ -1156,9 +1156,28 @@ function bindInstallPrompt() {
   // For iOS, show button with different behavior
   if (isIOS) {
     installBtn.classList.remove('hidden');
-    installBtn.addEventListener('click', () => {
-      showToast('Tippe auf Teilen-Symbol und wähle "Zum Home-Bildschirm"');
-    });
+
+    let isHandling = false;
+
+    const handleIOSClick = (e) => {
+      if (isHandling) return;
+      isHandling = true;
+
+      if (e) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+
+      // Show alert as fallback for iOS
+      alert('Um die App zu installieren:\n\n1. Tippe auf das Teilen-Symbol (⎙)\n2. Scrolle nach unten\n3. Wähle "Zum Home-Bildschirm"');
+
+      setTimeout(() => {
+        isHandling = false;
+      }, 500);
+    };
+
+    installBtn.addEventListener('click', handleIOSClick, true);
+
     return;
   }
 
@@ -1171,7 +1190,9 @@ function bindInstallPrompt() {
     installBtn.classList.remove('hidden');
   });
 
-  installBtn.addEventListener('click', async () => {
+  installBtn.addEventListener('click', async (e) => {
+    e.preventDefault();
+    e.stopPropagation();
     if (!deferredInstallPrompt) {
       showToast('Installationshinweis nicht verfügbar.');
       return;

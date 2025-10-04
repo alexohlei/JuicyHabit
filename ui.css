@@ -674,8 +674,9 @@ button.tag.active {
 }
 
 mwc-snackbar {
-  z-index: 120;
-  --mdc-snackbar-bottom: 96px;
+  z-index: 9999;
+  top: 80px !important;
+  bottom: auto !important;
 }
 
 .pantry-panel {
