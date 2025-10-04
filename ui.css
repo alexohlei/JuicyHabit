@@ -67,6 +67,11 @@ mwc-top-app-bar-fixed {
   height: 56px;
 }
 
+#install-btn {
+  z-index: 101;
+  position: relative;
+}
+
 .app-title {
   display: flex;
   align-items: center;

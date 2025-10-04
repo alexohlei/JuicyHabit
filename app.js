@@ -1139,6 +1139,30 @@ function triggerConfetti() {
 function bindInstallPrompt() {
   const installBtn = document.getElementById('install-btn');
   if (!installBtn) return;
+
+  // Check if running as standalone PWA
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches ||
+                       window.navigator.standalone === true;
+
+  // Check if iOS
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+  // Hide button if already installed
+  if (isStandalone) {
+    installBtn.classList.add('hidden');
+    return;
+  }
+
+  // For iOS, show button with different behavior
+  if (isIOS) {
+    installBtn.classList.remove('hidden');
+    installBtn.addEventListener('click', () => {
+      showToast('Tippe auf Teilen-Symbol und wähle "Zum Home-Bildschirm"');
+    });
+    return;
+  }
+
+  // For other browsers, hide initially
   installBtn.classList.add('hidden');
 
   window.addEventListener('beforeinstallprompt', (event) => {
